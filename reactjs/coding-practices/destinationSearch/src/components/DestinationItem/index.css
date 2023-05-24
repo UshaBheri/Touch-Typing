@@ -1,0 +1,23 @@
+.list-item-container {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.image {
+  height: 250px;
+  width: 150px;
+}
+
+.destination-name {
+  font-family: 'Open Sans';
+  font-size: 15px;
+  color: #000000;
+}
+
+@media screen and (min-width: 768px) {
+  .destination-name {
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,26 @@
+/* Write your CSS here */
+.container {
+  display: flex;
+  justify-content: column;
+  align-items: center;
+  flex-direction: center;
+  height: 100vh;
+}
+.headingCount {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  color: #000000;
+}
+.mango {
+  height: 80px;
+  width: 80px;
+}
+.banana {
+  height: 80px;
+  width: 80px;
+}
+.button {
+  cursor: pointer;
+  outline: none;
+}

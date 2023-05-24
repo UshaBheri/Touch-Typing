@@ -1,0 +1,33 @@
+/* Write your CSS here */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.card-container {
+  background-color: #ffffff;
+  background-size: cover;
+  height: 100vh;
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 600px;
+  padding-top: 10px;
+}
+.button {
+  font-family: 'Roboto';
+  font-size: 15px;
+  padding-top: 10px;
+  border-width: 2px;
+}
+.dark-mode {
+  background-color: #ffffff;
+  padding: 10px;
+}
+.light-mode {
+  background-color: #000000;
+  padding: 10px;
+}

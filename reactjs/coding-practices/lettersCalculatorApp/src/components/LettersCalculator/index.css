@@ -1,0 +1,46 @@
+/* Write your code here. */
+.app-container {
+  background-image: linear-gradient(to left, #93f9b9, #1d976c);
+  background-size: cover;
+  height: 100vh;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.heading {
+  font-size: 30px;
+  font-weight: 800;
+  font-family: 'Roboto';
+  color: #ffffff;
+}
+
+.user-input {
+  font-size: 15px;
+  font-weight: 800;
+  font-family: 'Roboto';
+  color: #ffffff;
+}
+
+.input-text {
+  font-size: 15px;
+  font-weight: 800;
+  font-family: 'Roboto';
+  color: #ffffff;
+}
+
+.count {
+  font-size: 15px;
+  font-weight: 800;
+  font-family: 'Roboto';
+  color: #219a6f;
+}
+
+.image {
+  height: 350px;
+  width: 350px;
+}

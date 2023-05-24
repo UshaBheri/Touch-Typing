@@ -1,0 +1,13 @@
+/* Write your CSS code here */
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-size: 30px;
+  font-weight: 800;
+  font-family: 'Roboto';
+}

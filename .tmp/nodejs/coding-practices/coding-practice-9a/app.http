@@ -1,0 +1,61 @@
+
+POST http://localhost:4000/register/
+Content-Type:application/json
+
+{
+  "username": "adam_richard",
+  "name": "Adam Richard",
+  "password": "richard_567",
+  "gender": "male",
+  "location": "Detroi"
+}
+
+### s2
+POST http://localhost:4000/register/
+Content-Type:application/json
+
+{
+  "username": "adam_richard",
+  "name": "Adam Richard",
+  "password": "r_56",
+  "gender": "male",
+  "location": "Detroi"
+}
+
+###2s2
+POST http://localhost:4000/login/
+Content-Type:application/json
+
+{
+  "username": "adam_richard",
+  "password": "richard_567"
+}
+
+###s1
+POST http://localhost:4000/login/
+Content-Type:application/json
+
+{
+  "username": "adam",
+  "password": "richard_567"
+}
+
+###s3
+POST http://localhost:4000/login/
+Content-Type:application/json
+
+{
+  "username": "adam_richard",
+  "password": "richard_567"
+}
+
+###3
+PUT http://localhost:4000/change-password/
+Content-Type:application/json
+
+{
+  "username": "adam_richard",
+  "oldPassword": "richard_56",
+  "newPassword": "richard"
+}
+

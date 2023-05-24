@@ -1,0 +1,92 @@
+  console.log
+    Server is running on http://localhost:3000/
+
+      at Server.<anonymous> (../app.js:19:15)
+
+  console.log
+    { username: 'serenawilliams' }
+
+      at ../app.js:35:11
+
+  console.log
+    undefined
+
+      at ../app.js:35:11
+
+  console.log
+    undefined
+
+      at ../app.js:35:11
+
+  console.log
+    [ { follower_user_id: 1 }, { follower_user_id: 2 } ]
+
+      at ../app.js:163:11
+
+  console.log
+    1,2
+
+      at ../app.js:167:11
+
+  console.log
+    undefined
+
+      at ../app.js:344:11
+
+  console.log
+    Invalid Request
+
+      at ../app.js:222:13
+
+  console.log
+    11
+
+      at ../app.js:292:13
+
+  console.log
+    [ 1, 2, 3, 5 ]
+
+      at ../app.js:305:13
+
+  console.log
+    [
+      1, 2, 3,  4,
+      5, 6, 9, 10
+    ]
+
+      at ../app.js:312:13
+
+  console.log
+    2
+
+      at ../app.js:292:13
+
+  console.log
+    [ 1, 2, 3, 5 ]
+
+      at ../app.js:305:13
+
+  console.log
+    [
+      1, 2, 3,  4,
+      5, 6, 9, 10
+    ]
+
+      at ../app.js:312:13
+
+  console.log
+    2023-05-16 04:52:53.264Z
+
+      at ../app.js:365:11
+
+  console.log
+    [ 7, 8, 12 ]
+
+      at ../app.js:401:13
+
+  console.log
+    [ 7, 8, 12 ]
+
+      at ../app.js:401:13
+
+**  jest-stare --reporters: wrote output report to .results/results.html	**

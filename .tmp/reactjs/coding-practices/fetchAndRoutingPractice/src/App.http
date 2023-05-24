@@ -1,0 +1,5 @@
+
+GET https://apis.ccbp.in/blogs/
+
+###
+GET https://apis.ccbp.in/blogs/:id/

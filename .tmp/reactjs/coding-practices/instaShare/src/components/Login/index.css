@@ -1,0 +1,70 @@
+.label {
+  font-size: 15px;
+  font-family: 'Roboto';
+  font-weight: 800;
+  color: '#121111';
+}
+
+.input-text {
+  font-size: 13px;
+  font-family: 'Roboto';
+  color: '#82807f';
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.logo {
+  height: 200px;
+  width: 250px;
+}
+
+.myForm {
+  height: 500px;
+  width: 400px;
+}
+
+.heading {
+  font-size: 15px;
+  font-family: 'Roboto';
+  font-weight: 800;
+  color: '#1642e0';
+}
+
+.input-container {
+  font-size: 15px;
+  font-family: 'Roboto';
+  font-weight: 800;
+  color: '#1642e0';
+  background-color: '#eeeeee';
+  border: 1px solid #64748b;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 40px;
+  width: 100%;
+}
+
+.button {
+  border: 0px;
+  border-radius: 5px;
+  background-color: '#1642e0';
+  color: '#ffffff';
+  margin-top: 20px;
+  font-size: 15px;
+  font-family: 'Roboto';
+}
+
+.error-msg {
+  font-size: 15px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: '#e6091c';
+}

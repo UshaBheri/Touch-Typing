@@ -1,0 +1,12 @@
+Cleared /tmp/jest_0
+  console.log
+    4
+
+      at FruitsCounter.<anonymous> (src/components/FruitsCounter/index.js:17:15)
+
+  console.log
+    5
+
+      at FruitsCounter.<anonymous> (src/components/FruitsCounter/index.js:10:15)
+
+**  jest-stare --reporters: wrote output report to .results/results.html	**

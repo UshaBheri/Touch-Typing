@@ -1,0 +1,17 @@
+/* Write your CSS here */
+
+  margin-bottom: 16px;
+}
+
+.stats-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 12px;
+}
+
+.stats-text {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin: 0px;
+}

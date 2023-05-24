@@ -1,0 +1,28 @@
+###1
+GET http://localhost:3000/players/
+
+###2
+POST http://localhost:3000/players/
+Content-Type: application/json
+
+{
+    "playerName": "Vishal",
+    "jerseyNumber": 17,
+    "role": "Bowler"
+}
+
+###3
+GET http://localhost:3000/players/:playerId/
+
+###4
+PUT http://localhost:3000/players/:playerId/
+Content-type:application/json
+
+{
+  "playerName": "Maneesh",
+  "jerseyNumber": 54,
+  "role": "All-rounder"
+}
+
+###5
+DELETE http://localhost:3000//players/:playerId/

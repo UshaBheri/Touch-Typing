@@ -1,0 +1,419 @@
+Cleared /tmp/jest_0
+  console.warn
+    The width(1000) and height(300) are both fixed numbers,
+           maybe you don't need to use a ResponsiveContainer.
+
+      at warn (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/util/LogUtils.js:26:17)
+      at ResponsiveContainer.renderChart (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/component/ResponsiveContainer.js:145:26)
+      at ResponsiveContainer.render (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/component/ResponsiveContainer.js:201:16)
+      at finishClassComponent (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:17485:31)
+      at updateClassComponent (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:17435:24)
+      at beginWork (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:19073:16)
+      at beginWork$1 (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:23940:14)
+
+  console.warn
+    The width(1000) and height(400) are both fixed numbers,
+           maybe you don't need to use a ResponsiveContainer.
+
+      at warn (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/util/LogUtils.js:26:17)
+      at ResponsiveContainer.renderChart (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/component/ResponsiveContainer.js:145:26)
+      at ResponsiveContainer.render (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/component/ResponsiveContainer.js:201:16)
+      at finishClassComponent (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:17485:31)
+      at updateClassComponent (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:17435:24)
+      at beginWork (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:19073:16)
+      at beginWork$1 (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:23940:14)
+
+  console.warn
+    The width(1000) and height(400) are both fixed numbers,
+           maybe you don't need to use a ResponsiveContainer.
+
+      at warn (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/util/LogUtils.js:26:17)
+      at ResponsiveContainer.renderChart (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/component/ResponsiveContainer.js:145:26)
+      at ResponsiveContainer.render (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/component/ResponsiveContainer.js:201:16)
+      at finishClassComponent (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:17485:31)
+      at updateClassComponent (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:17435:24)
+      at beginWork (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:19073:16)
+      at beginWork$1 (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:23940:14)
+
+  console.error
+    Warning: Can't perform a React state update on an unmounted component. This is a no-op, but it indicates a memory leak in your application. To fix, cancel all subscriptions and asynchronous tasks in the componentWillUnmount method.
+        at CowinDashboard (/home/workspace/.tmp/reactjs/coding-practices/cowinDashboard/src/components/CowinDashboard/index.js:19:40)
+        at App
+
+      39 |       }
+      40 |
+    > 41 |       this.setState({
+         |            ^
+      42 |         fetchedData: convertData,
+      43 |         displayStatus: caponentsValues.sucess,
+      44 |       })
+
+      at printWarning (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:67:30)
+      at error (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:43:5)
+      at warnAboutUpdateOnUnmountedFiberInDEV (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:23914:9)
+      at scheduleUpdateOnFiber (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:21840:5)
+      at Object.enqueueSetState (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:12467:5)
+      at CowinDashboard.setState (node_modules/.pnpm/react@17.0.1/node_modules/react/cjs/react.development.js:365:16)
+      at CowinDashboard.fetchedDataApi (src/components/CowinDashboard/index.js:41:12)
+
+  console.warn
+    The width(1000) and height(300) are both fixed numbers,
+           maybe you don't need to use a ResponsiveContainer.
+
+      at warn (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/util/LogUtils.js:26:17)
+      at ResponsiveContainer.renderChart (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/component/ResponsiveContainer.js:145:26)
+      at ResponsiveContainer.render (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/component/ResponsiveContainer.js:201:16)
+      at finishClassComponent (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:17485:31)
+      at updateClassComponent (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:17435:24)
+      at beginWork (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:19073:16)
+      at beginWork$1 (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:23940:14)
+
+  console.warn
+    The width(1000) and height(400) are both fixed numbers,
+           maybe you don't need to use a ResponsiveContainer.
+
+      at warn (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/util/LogUtils.js:26:17)
+      at ResponsiveContainer.renderChart (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/component/ResponsiveContainer.js:145:26)
+      at ResponsiveContainer.render (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/component/ResponsiveContainer.js:201:16)
+      at finishClassComponent (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:17485:31)
+      at updateClassComponent (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:17435:24)
+      at beginWork (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:19073:16)
+      at beginWork$1 (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:23940:14)
+
+  console.warn
+    The width(1000) and height(400) are both fixed numbers,
+           maybe you don't need to use a ResponsiveContainer.
+
+      at warn (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/util/LogUtils.js:26:17)
+      at ResponsiveContainer.renderChart (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/component/ResponsiveContainer.js:145:26)
+      at ResponsiveContainer.render (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/component/ResponsiveContainer.js:201:16)
+      at finishClassComponent (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:17485:31)
+      at updateClassComponent (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:17435:24)
+      at beginWork (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:19073:16)
+      at beginWork$1 (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:23940:14)
+
+  console.warn
+    The width(1000) and height(300) are both fixed numbers,
+           maybe you don't need to use a ResponsiveContainer.
+
+      at warn (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/util/LogUtils.js:26:17)
+      at ResponsiveContainer.renderChart (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/component/ResponsiveContainer.js:145:26)
+      at ResponsiveContainer.render (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/component/ResponsiveContainer.js:201:16)
+      at finishClassComponent (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:17485:31)
+      at updateClassComponent (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:17435:24)
+      at beginWork (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:19073:16)
+      at beginWork$1 (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:23940:14)
+
+  console.warn
+    The width(1000) and height(400) are both fixed numbers,
+           maybe you don't need to use a ResponsiveContainer.
+
+      at warn (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/util/LogUtils.js:26:17)
+      at ResponsiveContainer.renderChart (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/component/ResponsiveContainer.js:145:26)
+      at ResponsiveContainer.render (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/component/ResponsiveContainer.js:201:16)
+      at finishClassComponent (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:17485:31)
+      at updateClassComponent (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:17435:24)
+      at beginWork (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:19073:16)
+      at beginWork$1 (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:23940:14)
+
+  console.warn
+    The width(1000) and height(400) are both fixed numbers,
+           maybe you don't need to use a ResponsiveContainer.
+
+      at warn (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/util/LogUtils.js:26:17)
+      at ResponsiveContainer.renderChart (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/component/ResponsiveContainer.js:145:26)
+      at ResponsiveContainer.render (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/component/ResponsiveContainer.js:201:16)
+      at finishClassComponent (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:17485:31)
+      at updateClassComponent (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:17435:24)
+      at beginWork (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:19073:16)
+      at beginWork$1 (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:23940:14)
+
+  console.warn
+    The width(1000) and height(300) are both fixed numbers,
+           maybe you don't need to use a ResponsiveContainer.
+
+      at warn (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/util/LogUtils.js:26:17)
+      at ResponsiveContainer.renderChart (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/component/ResponsiveContainer.js:145:26)
+      at ResponsiveContainer.render (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/component/ResponsiveContainer.js:201:16)
+      at finishClassComponent (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:17485:31)
+      at updateClassComponent (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:17435:24)
+      at beginWork (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:19073:16)
+      at beginWork$1 (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:23940:14)
+
+  console.warn
+    The width(1000) and height(400) are both fixed numbers,
+           maybe you don't need to use a ResponsiveContainer.
+
+      at warn (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/util/LogUtils.js:26:17)
+      at ResponsiveContainer.renderChart (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/component/ResponsiveContainer.js:145:26)
+      at ResponsiveContainer.render (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/component/ResponsiveContainer.js:201:16)
+      at finishClassComponent (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:17485:31)
+      at updateClassComponent (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:17435:24)
+      at beginWork (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:19073:16)
+      at beginWork$1 (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:23940:14)
+
+  console.warn
+    The width(1000) and height(400) are both fixed numbers,
+           maybe you don't need to use a ResponsiveContainer.
+
+      at warn (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/util/LogUtils.js:26:17)
+      at ResponsiveContainer.renderChart (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/component/ResponsiveContainer.js:145:26)
+      at ResponsiveContainer.render (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/component/ResponsiveContainer.js:201:16)
+      at finishClassComponent (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:17485:31)
+      at updateClassComponent (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:17435:24)
+      at beginWork (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:19073:16)
+      at beginWork$1 (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:23940:14)
+
+  console.warn
+    The width(1000) and height(300) are both fixed numbers,
+           maybe you don't need to use a ResponsiveContainer.
+
+      at warn (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/util/LogUtils.js:26:17)
+      at ResponsiveContainer.renderChart (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/component/ResponsiveContainer.js:145:26)
+      at ResponsiveContainer.render (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/component/ResponsiveContainer.js:201:16)
+      at finishClassComponent (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:17485:31)
+      at updateClassComponent (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:17435:24)
+      at beginWork (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:19073:16)
+      at beginWork$1 (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:23940:14)
+
+  console.warn
+    The width(1000) and height(400) are both fixed numbers,
+           maybe you don't need to use a ResponsiveContainer.
+
+      at warn (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/util/LogUtils.js:26:17)
+      at ResponsiveContainer.renderChart (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/component/ResponsiveContainer.js:145:26)
+      at ResponsiveContainer.render (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/component/ResponsiveContainer.js:201:16)
+      at finishClassComponent (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:17485:31)
+      at updateClassComponent (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:17435:24)
+      at beginWork (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:19073:16)
+      at beginWork$1 (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:23940:14)
+
+  console.warn
+    The width(1000) and height(400) are both fixed numbers,
+           maybe you don't need to use a ResponsiveContainer.
+
+      at warn (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/util/LogUtils.js:26:17)
+      at ResponsiveContainer.renderChart (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/component/ResponsiveContainer.js:145:26)
+      at ResponsiveContainer.render (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/component/ResponsiveContainer.js:201:16)
+      at finishClassComponent (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:17485:31)
+      at updateClassComponent (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:17435:24)
+      at beginWork (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:19073:16)
+      at beginWork$1 (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:23940:14)
+
+  console.warn
+    The width(1000) and height(300) are both fixed numbers,
+           maybe you don't need to use a ResponsiveContainer.
+
+      at warn (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/util/LogUtils.js:26:17)
+      at ResponsiveContainer.renderChart (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/component/ResponsiveContainer.js:145:26)
+      at ResponsiveContainer.render (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/component/ResponsiveContainer.js:201:16)
+      at finishClassComponent (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:17485:31)
+      at updateClassComponent (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:17435:24)
+      at beginWork (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:19073:16)
+      at beginWork$1 (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:23940:14)
+
+  console.warn
+    The width(1000) and height(400) are both fixed numbers,
+           maybe you don't need to use a ResponsiveContainer.
+
+      at warn (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/util/LogUtils.js:26:17)
+      at ResponsiveContainer.renderChart (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/component/ResponsiveContainer.js:145:26)
+      at ResponsiveContainer.render (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/component/ResponsiveContainer.js:201:16)
+      at finishClassComponent (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:17485:31)
+      at updateClassComponent (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:17435:24)
+      at beginWork (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:19073:16)
+      at beginWork$1 (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:23940:14)
+
+  console.warn
+    The width(1000) and height(400) are both fixed numbers,
+           maybe you don't need to use a ResponsiveContainer.
+
+      at warn (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/util/LogUtils.js:26:17)
+      at ResponsiveContainer.renderChart (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/component/ResponsiveContainer.js:145:26)
+      at ResponsiveContainer.render (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/component/ResponsiveContainer.js:201:16)
+      at finishClassComponent (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:17485:31)
+      at updateClassComponent (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:17435:24)
+      at beginWork (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:19073:16)
+      at beginWork$1 (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:23940:14)
+
+  console.warn
+    The width(1000) and height(300) are both fixed numbers,
+           maybe you don't need to use a ResponsiveContainer.
+
+      at warn (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/util/LogUtils.js:26:17)
+      at ResponsiveContainer.renderChart (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/component/ResponsiveContainer.js:145:26)
+      at ResponsiveContainer.render (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/component/ResponsiveContainer.js:201:16)
+      at finishClassComponent (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:17485:31)
+      at updateClassComponent (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:17435:24)
+      at beginWork (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:19073:16)
+      at beginWork$1 (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:23940:14)
+
+  console.warn
+    The width(1000) and height(400) are both fixed numbers,
+           maybe you don't need to use a ResponsiveContainer.
+
+      at warn (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/util/LogUtils.js:26:17)
+      at ResponsiveContainer.renderChart (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/component/ResponsiveContainer.js:145:26)
+      at ResponsiveContainer.render (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/component/ResponsiveContainer.js:201:16)
+      at finishClassComponent (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:17485:31)
+      at updateClassComponent (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:17435:24)
+      at beginWork (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:19073:16)
+      at beginWork$1 (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:23940:14)
+
+  console.warn
+    The width(1000) and height(400) are both fixed numbers,
+           maybe you don't need to use a ResponsiveContainer.
+
+      at warn (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/util/LogUtils.js:26:17)
+      at ResponsiveContainer.renderChart (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/component/ResponsiveContainer.js:145:26)
+      at ResponsiveContainer.render (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/component/ResponsiveContainer.js:201:16)
+      at finishClassComponent (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:17485:31)
+      at updateClassComponent (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:17435:24)
+      at beginWork (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:19073:16)
+      at beginWork$1 (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:23940:14)
+
+  console.warn
+    The width(1000) and height(300) are both fixed numbers,
+           maybe you don't need to use a ResponsiveContainer.
+
+      at warn (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/util/LogUtils.js:26:17)
+      at ResponsiveContainer.renderChart (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/component/ResponsiveContainer.js:145:26)
+      at ResponsiveContainer.render (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/component/ResponsiveContainer.js:201:16)
+      at finishClassComponent (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:17485:31)
+      at updateClassComponent (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:17435:24)
+      at beginWork (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:19073:16)
+      at beginWork$1 (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:23940:14)
+
+  console.warn
+    The width(1000) and height(400) are both fixed numbers,
+           maybe you don't need to use a ResponsiveContainer.
+
+      at warn (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/util/LogUtils.js:26:17)
+      at ResponsiveContainer.renderChart (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/component/ResponsiveContainer.js:145:26)
+      at ResponsiveContainer.render (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/component/ResponsiveContainer.js:201:16)
+      at finishClassComponent (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:17485:31)
+      at updateClassComponent (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:17435:24)
+      at beginWork (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:19073:16)
+      at beginWork$1 (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:23940:14)
+
+  console.warn
+    The width(1000) and height(400) are both fixed numbers,
+           maybe you don't need to use a ResponsiveContainer.
+
+      at warn (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/util/LogUtils.js:26:17)
+      at ResponsiveContainer.renderChart (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/component/ResponsiveContainer.js:145:26)
+      at ResponsiveContainer.render (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/component/ResponsiveContainer.js:201:16)
+      at finishClassComponent (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:17485:31)
+      at updateClassComponent (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:17435:24)
+      at beginWork (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:19073:16)
+      at beginWork$1 (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:23940:14)
+
+  console.warn
+    The width(1000) and height(300) are both fixed numbers,
+           maybe you don't need to use a ResponsiveContainer.
+
+      at warn (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/util/LogUtils.js:26:17)
+      at ResponsiveContainer.renderChart (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/component/ResponsiveContainer.js:145:26)
+      at ResponsiveContainer.render (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/component/ResponsiveContainer.js:201:16)
+      at finishClassComponent (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:17485:31)
+      at updateClassComponent (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:17435:24)
+      at beginWork (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:19073:16)
+      at beginWork$1 (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:23940:14)
+
+  console.warn
+    The width(1000) and height(400) are both fixed numbers,
+           maybe you don't need to use a ResponsiveContainer.
+
+      at warn (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/util/LogUtils.js:26:17)
+      at ResponsiveContainer.renderChart (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/component/ResponsiveContainer.js:145:26)
+      at ResponsiveContainer.render (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/component/ResponsiveContainer.js:201:16)
+      at finishClassComponent (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:17485:31)
+      at updateClassComponent (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:17435:24)
+      at beginWork (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:19073:16)
+      at beginWork$1 (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:23940:14)
+
+  console.warn
+    The width(1000) and height(400) are both fixed numbers,
+           maybe you don't need to use a ResponsiveContainer.
+
+      at warn (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/util/LogUtils.js:26:17)
+      at ResponsiveContainer.renderChart (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/component/ResponsiveContainer.js:145:26)
+      at ResponsiveContainer.render (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/component/ResponsiveContainer.js:201:16)
+      at finishClassComponent (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:17485:31)
+      at updateClassComponent (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:17435:24)
+      at beginWork (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:19073:16)
+      at beginWork$1 (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:23940:14)
+
+  console.warn
+    The width(1000) and height(300) are both fixed numbers,
+           maybe you don't need to use a ResponsiveContainer.
+
+      at warn (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/util/LogUtils.js:26:17)
+      at ResponsiveContainer.renderChart (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/component/ResponsiveContainer.js:145:26)
+      at ResponsiveContainer.render (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/component/ResponsiveContainer.js:201:16)
+      at finishClassComponent (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:17485:31)
+      at updateClassComponent (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:17435:24)
+      at beginWork (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:19073:16)
+      at beginWork$1 (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:23940:14)
+
+  console.warn
+    The width(1000) and height(400) are both fixed numbers,
+           maybe you don't need to use a ResponsiveContainer.
+
+      at warn (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/util/LogUtils.js:26:17)
+      at ResponsiveContainer.renderChart (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/component/ResponsiveContainer.js:145:26)
+      at ResponsiveContainer.render (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/component/ResponsiveContainer.js:201:16)
+      at finishClassComponent (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:17485:31)
+      at updateClassComponent (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:17435:24)
+      at beginWork (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:19073:16)
+      at beginWork$1 (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:23940:14)
+
+  console.warn
+    The width(1000) and height(400) are both fixed numbers,
+           maybe you don't need to use a ResponsiveContainer.
+
+      at warn (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/util/LogUtils.js:26:17)
+      at ResponsiveContainer.renderChart (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/component/ResponsiveContainer.js:145:26)
+      at ResponsiveContainer.render (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/component/ResponsiveContainer.js:201:16)
+      at finishClassComponent (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:17485:31)
+      at updateClassComponent (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:17435:24)
+      at beginWork (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:19073:16)
+      at beginWork$1 (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:23940:14)
+
+  console.warn
+    The width(1000) and height(300) are both fixed numbers,
+           maybe you don't need to use a ResponsiveContainer.
+
+      at warn (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/util/LogUtils.js:26:17)
+      at ResponsiveContainer.renderChart (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/component/ResponsiveContainer.js:145:26)
+      at ResponsiveContainer.render (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/component/ResponsiveContainer.js:201:16)
+      at finishClassComponent (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:17485:31)
+      at updateClassComponent (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:17435:24)
+      at beginWork (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:19073:16)
+      at beginWork$1 (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:23940:14)
+
+  console.warn
+    The width(1000) and height(400) are both fixed numbers,
+           maybe you don't need to use a ResponsiveContainer.
+
+      at warn (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/util/LogUtils.js:26:17)
+      at ResponsiveContainer.renderChart (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/component/ResponsiveContainer.js:145:26)
+      at ResponsiveContainer.render (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/component/ResponsiveContainer.js:201:16)
+      at finishClassComponent (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:17485:31)
+      at updateClassComponent (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:17435:24)
+      at beginWork (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:19073:16)
+      at beginWork$1 (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:23940:14)
+
+  console.warn
+    The width(1000) and height(400) are both fixed numbers,
+           maybe you don't need to use a ResponsiveContainer.
+
+      at warn (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/util/LogUtils.js:26:17)
+      at ResponsiveContainer.renderChart (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/component/ResponsiveContainer.js:145:26)
+      at ResponsiveContainer.render (node_modules/.pnpm/recharts@2.0.10_react-dom@17.0.1+react@17.0.1/node_modules/recharts/lib/component/ResponsiveContainer.js:201:16)
+      at finishClassComponent (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:17485:31)
+      at updateClassComponent (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:17435:24)
+      at beginWork (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:19073:16)
+      at beginWork$1 (node_modules/.pnpm/react-dom@17.0.1_react@17.0.1/node_modules/react-dom/cjs/react-dom.development.js:23940:14)
+
+**  jest-stare --reporters: wrote output report to .results/results.html	**

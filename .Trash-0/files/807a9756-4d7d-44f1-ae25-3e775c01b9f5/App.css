@@ -1,0 +1,66 @@
+.typing-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  text-align: center;
+}
+
+.main-heading {
+  font-family: "Roboto";
+  font-size: 30px;
+  font-weight: bold;
+  color: "#4103fc";
+}
+
+.next-key-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.next-keys {
+  font-family: "Roboto";
+  font-size: 15px;
+  font-weight: 500;
+  color: "#545354";
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.left-time {
+  font-family: "Roboto";
+  font-size: 15px;
+  font-weight: 500;
+  color: "#05eb78";
+}
+
+.keys-pressed {
+  font-family: "Roboto";
+  font-size: 15px;
+  font-weight: 500;
+  color: "#ebe309";
+}
+
+.accuracy {
+  font-family: "Roboto";
+  font-size: 15px;
+  font-weight: 500;
+  color: "#111212";
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}

@@ -1,0 +1,50 @@
+/* Write your CSS here */
+.icon {
+}
+.container {
+}
+.success {
+  color: #2dca73;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+
+.error {
+  color: #ff0b37;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+
+.warning {
+  color: #ffb800;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+
+.info {
+  color: #0f81e0;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+.description {
+  color: #475569;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-heading {
+  color: #0f172a;
+  font-size: 30px;
+  font-family: 'Roboto';
+}

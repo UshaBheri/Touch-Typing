@@ -1,0 +1,23 @@
+import './index.css'
+
+const VisitCountries = props => {
+  const {name, id, imageUrl, isVisited} = props
+  const visitText = isVisited ? 'Visit' : 'Visited'
+
+  const onClickVisit = () => {
+    isVisit(id)
+  }
+
+  return (
+    <li className="visit-countries">
+      <div className="main-container">
+        <p className="country">{name}</p>
+      </div>
+      <button type="button" onClick={onClickVisit} className="button">
+        {visitText}
+      </button>
+    </li>
+  )
+}
+
+export default VisitCountries

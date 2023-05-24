@@ -1,0 +1,33 @@
+/* Write your CSS code here */
+.navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.nav-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-link {
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  list-style-type: none;
+}
+.nav-item {
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  padding-right: 10px;
+  padding-top: 10px;
+}
